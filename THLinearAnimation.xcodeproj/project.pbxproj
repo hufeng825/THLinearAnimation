@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0A0E1015FDCECC00696294 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0A0E0F15FDCECC00696294 /* UIKit.framework */; };
+		BA0A0E1215FDCECC00696294 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0A0E1115FDCECC00696294 /* Foundation.framework */; };
+		BA0A0E1415FDCECC00696294 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0A0E1315FDCECC00696294 /* CoreGraphics.framework */; };
+		BA0A0E1A15FDCECC00696294 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0E1815FDCECC00696294 /* InfoPlist.strings */; };
+		BA0A0E1C15FDCECC00696294 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E1B15FDCECC00696294 /* main.m */; };
+		BA0A0E2015FDCECC00696294 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E1F15FDCECC00696294 /* THAppDelegate.m */; };
+		BA0A0E2315FDCECC00696294 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E2215FDCECC00696294 /* THViewController.m */; };
+		BA0A0E2615FDCECC00696294 /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0E2415FDCECC00696294 /* THViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA0A0E0B15FDCECC00696294 /* THLinearAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THLinearAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0A0E0F15FDCECC00696294 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA0A0E1115FDCECC00696294 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA0A0E1315FDCECC00696294 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA0A0E1715FDCECC00696294 /* THLinearAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "THLinearAnimation-Info.plist"; sourceTree = "<group>"; };
+		BA0A0E1915FDCECC00696294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA0A0E1B15FDCECC00696294 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA0A0E1D15FDCECC00696294 /* THLinearAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "THLinearAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		BA0A0E1E15FDCECC00696294 /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
+		BA0A0E1F15FDCECC00696294 /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		BA0A0E2115FDCECC00696294 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
+		BA0A0E2215FDCECC00696294 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		BA0A0E2515FDCECC00696294 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0A0E0815FDCECC00696294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0A0E1015FDCECC00696294 /* UIKit.framework in Frameworks */,
+				BA0A0E1215FDCECC00696294 /* Foundation.framework in Frameworks */,
+				BA0A0E1415FDCECC00696294 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA0A0E0015FDCECC00696294 = {
+			isa = PBXGroup;
+			children = (
+				BA0A0E1515FDCECC00696294 /* THLinearAnimation */,
+				BA0A0E0E15FDCECC00696294 /* Frameworks */,
+				BA0A0E0C15FDCECC00696294 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0A0E0C15FDCECC00696294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0E0B15FDCECC00696294 /* THLinearAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0A0E0E15FDCECC00696294 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0E0F15FDCECC00696294 /* UIKit.framework */,
+				BA0A0E1115FDCECC00696294 /* Foundation.framework */,
+				BA0A0E1315FDCECC00696294 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA0A0E1515FDCECC00696294 /* THLinearAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0E1E15FDCECC00696294 /* THAppDelegate.h */,
+				BA0A0E1F15FDCECC00696294 /* THAppDelegate.m */,
+				BA0A0E2115FDCECC00696294 /* THViewController.h */,
+				BA0A0E2215FDCECC00696294 /* THViewController.m */,
+				BA0A0E2415FDCECC00696294 /* THViewController.xib */,
+				BA0A0E1615FDCECC00696294 /* Supporting Files */,
+			);
+			path = THLinearAnimation;
+			sourceTree = "<group>";
+		};
+		BA0A0E1615FDCECC00696294 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA0A0E1715FDCECC00696294 /* THLinearAnimation-Info.plist */,
+				BA0A0E1815FDCECC00696294 /* InfoPlist.strings */,
+				BA0A0E1B15FDCECC00696294 /* main.m */,
+				BA0A0E1D15FDCECC00696294 /* THLinearAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0A0E0A15FDCECC00696294 /* THLinearAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0A0E2915FDCECC00696294 /* Build configuration list for PBXNativeTarget "THLinearAnimation" */;
+			buildPhases = (
+				BA0A0E0715FDCECC00696294 /* Sources */,
+				BA0A0E0815FDCECC00696294 /* Frameworks */,
+				BA0A0E0915FDCECC00696294 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THLinearAnimation;
+			productName = THLinearAnimation;
+			productReference = BA0A0E0B15FDCECC00696294 /* THLinearAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA0A0E0215FDCECC00696294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = iGrow;
+			};
+			buildConfigurationList = BA0A0E0515FDCECC00696294 /* Build configuration list for PBXProject "THLinearAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BA0A0E0015FDCECC00696294;
+			productRefGroup = BA0A0E0C15FDCECC00696294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0A0E0A15FDCECC00696294 /* THLinearAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0A0E0915FDCECC00696294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0A0E1A15FDCECC00696294 /* InfoPlist.strings in Resources */,
+				BA0A0E2615FDCECC00696294 /* THViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0A0E0715FDCECC00696294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0A0E1C15FDCECC00696294 /* main.m in Sources */,
+				BA0A0E2015FDCECC00696294 /* THAppDelegate.m in Sources */,
+				BA0A0E2315FDCECC00696294 /* THViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA0A0E1815FDCECC00696294 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0A0E1915FDCECC00696294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA0A0E2415FDCECC00696294 /* THViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0A0E2515FDCECC00696294 /* en */,
+			);
+			name = THViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA0A0E2715FDCECC00696294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA0A0E2815FDCECC00696294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0A0E2A15FDCECC00696294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THLinearAnimation/THLinearAnimation-Prefix.pch";
+				INFOPLIST_FILE = "THLinearAnimation/THLinearAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA0A0E2B15FDCECC00696294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "THLinearAnimation/THLinearAnimation-Prefix.pch";
+				INFOPLIST_FILE = "THLinearAnimation/THLinearAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0A0E0515FDCECC00696294 /* Build configuration list for PBXProject "THLinearAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0A0E2715FDCECC00696294 /* Debug */,
+				BA0A0E2815FDCECC00696294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0A0E2915FDCECC00696294 /* Build configuration list for PBXNativeTarget "THLinearAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0A0E2A15FDCECC00696294 /* Debug */,
+				BA0A0E2B15FDCECC00696294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA0A0E0215FDCECC00696294 /* Project object */;
+}
