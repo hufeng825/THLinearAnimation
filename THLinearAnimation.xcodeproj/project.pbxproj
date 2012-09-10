@@ -15,6 +15,8 @@
 		BA0A0E2015FDCECC00696294 /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E1F15FDCECC00696294 /* THAppDelegate.m */; };
 		BA0A0E2315FDCECC00696294 /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E2215FDCECC00696294 /* THViewController.m */; };
 		BA0A0E2615FDCECC00696294 /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA0A0E2415FDCECC00696294 /* THViewController.xib */; };
+		BA0A0E3415FDCF7F00696294 /* THBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E3115FDCF7F00696294 /* THBackgroundView.m */; };
+		BA0A0E3515FDCF7F00696294 /* THLightView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0E3315FDCF7F00696294 /* THLightView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,10 @@
 		BA0A0E2115FDCECC00696294 /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
 		BA0A0E2215FDCECC00696294 /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
 		BA0A0E2515FDCECC00696294 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+		BA0A0E3015FDCF7F00696294 /* THBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBackgroundView.h; sourceTree = "<group>"; };
+		BA0A0E3115FDCF7F00696294 /* THBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBackgroundView.m; sourceTree = "<group>"; };
+		BA0A0E3215FDCF7F00696294 /* THLightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THLightView.h; sourceTree = "<group>"; };
+		BA0A0E3315FDCF7F00696294 /* THLightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THLightView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,10 @@
 		BA0A0E1515FDCECC00696294 /* THLinearAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				BA0A0E3015FDCF7F00696294 /* THBackgroundView.h */,
+				BA0A0E3115FDCF7F00696294 /* THBackgroundView.m */,
+				BA0A0E3215FDCF7F00696294 /* THLightView.h */,
+				BA0A0E3315FDCF7F00696294 /* THLightView.m */,
 				BA0A0E1E15FDCECC00696294 /* THAppDelegate.h */,
 				BA0A0E1F15FDCECC00696294 /* THAppDelegate.m */,
 				BA0A0E2115FDCECC00696294 /* THViewController.h */,
@@ -165,6 +175,8 @@
 				BA0A0E1C15FDCECC00696294 /* main.m in Sources */,
 				BA0A0E2015FDCECC00696294 /* THAppDelegate.m in Sources */,
 				BA0A0E2315FDCECC00696294 /* THViewController.m in Sources */,
+				BA0A0E3415FDCF7F00696294 /* THBackgroundView.m in Sources */,
+				BA0A0E3515FDCF7F00696294 /* THLightView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +255,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THLinearAnimation/THLinearAnimation-Prefix.pch";
 				INFOPLIST_FILE = "THLinearAnimation/THLinearAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -254,6 +267,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "THLinearAnimation/THLinearAnimation-Prefix.pch";
 				INFOPLIST_FILE = "THLinearAnimation/THLinearAnimation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +292,7 @@
 				BA0A0E2B15FDCECC00696294 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
